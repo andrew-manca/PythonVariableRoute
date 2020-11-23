@@ -3,12 +3,15 @@
   "bindings": [
     {
       "authLevel": "anonymous",
+      "route": "GetName/{id?}",
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
       "methods": [
         "get",
-        "post"
+        "post",
+        "delete",
+        "put"
       ]
     },
     {
